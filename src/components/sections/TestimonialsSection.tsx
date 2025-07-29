@@ -46,7 +46,7 @@ export function TestimonialsSection() {
                 />
                 <div className="text-2xl font-bold mb-2 text-white group-hover:text-purple-300 transition-colors duration-300">{t.name}</div>
                 <div className="text-purple-300 font-medium mb-4 group-hover:text-purple-200 transition-colors duration-300">{t.title}</div>
-                <div className="text-gray-300 text-lg italic leading-relaxed group-hover:text-white group-hover:scale-105 transition-all duration-300">"{t.quote}"</div>
+                <div className="text-gray-300 text-lg italic leading-relaxed group-hover:text-white group-hover:scale-105 transition-all duration-300">&quot;{t.quote}&quot;</div>
                 
                 {/* Star Rating */}
                 <div className="flex items-center justify-center mt-6 space-x-1">
@@ -64,4 +64,4 @@ export function TestimonialsSection() {
       </div>
     </section>
   );
-} 
+}
