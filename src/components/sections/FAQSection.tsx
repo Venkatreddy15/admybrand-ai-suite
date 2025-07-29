@@ -27,13 +27,13 @@ export function FAQSection() {
             </span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Everything you need to know about ADmyBRAND AI Suit Can&apos;t find the answer you&apos;re looking for? Contact our support team.
+            Everything you need to know about ADmyBRAND AI Suite. Can&apos;t find the answer you&apos;re looking for? Contact our support team.
           </p>
         </div>
 
         {/* FAQ Cards */}
         <div className="space-y-6">
-          {faq.map((item, i) => (
+          {faq.map((item) => (
             <div key={item.question} className="card-premium hover-lift-premium rounded-2xl">
               <Accordion title={item.question}>
                 {item.answer}

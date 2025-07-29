@@ -1,5 +1,4 @@
 import { pricingTiers } from "@/data/pricing";
-import { PricingCard } from "@/components/ui/PricingCard";
 
 export function PricingSection() {
   return (
@@ -33,7 +32,7 @@ export function PricingSection() {
 
         {/* Pricing Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {pricingTiers.map((tier, index) => (
+          {pricingTiers.map((tier) => (
             <div
               key={tier.title}
               className={`relative group ${

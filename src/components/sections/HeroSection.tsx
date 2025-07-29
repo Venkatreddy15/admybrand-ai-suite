@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/Button";
 import { useState } from "react";
 
 export function HeroSection() {
