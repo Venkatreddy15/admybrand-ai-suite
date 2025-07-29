@@ -104,4 +104,4 @@ export function PricingSection() {
       </div>
     </section>
   );
-} 
+}

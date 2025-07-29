@@ -27,7 +27,7 @@ export function FAQSection() {
             </span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Everything you need to know about ADmyBRAND AI Suite. Can't find the answer you're looking for? Contact our support team.
+            Everything you need to know about ADmyBRAND AI Suit Can&apos;t find the answer you&apos;re looking for? Contact our support team.
           </p>
         </div>
 
@@ -52,4 +52,4 @@ export function FAQSection() {
       </div>
     </section>
   );
-} 
+}
